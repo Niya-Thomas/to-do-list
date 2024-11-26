@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+   background-color: pink;
+   margin-top: 100px;
+   height: 30rem;
+   border-radius: 20px;
+   
+  }
+  .h2{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: sans-serif;
+    
+  }
+  #todoInput{
+    width: 15rem;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px
+  }
+  #addButton{
+    width: 5rem;
+    height: 2rem;
+    border: navajowhite;
+    border-radius: 10px;
+    background-color: bisque;
+    color: yellowgreen;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  input, button {
+    margin: 5px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  button {
+    cursor: pointer;
+  }
+  /* #todoList{
+    margin-left: 20px;
+    font-family: sans-serif;
+    list-style-type: square;
+    background-color: wheat;
+    border: none;
+    border-radius: 20px;
+
+  } */
+   .edit{
+    
+    margin: 5px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: bisque;
+    font-family: sans-serif;
+    color: brown;
+
+   }
+   .delete{
+   
+    margin: 5px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: bisque;
+    font-family: sans-serif;
+    color: brown;
+
+   }
+   li{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+   
+   }
